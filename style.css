@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Pacifico&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    background-color: lightgoldenrodyellow;
+    font-size: 62.5%;
+
+}
+
+li a {
+    color:maroon;
+    font-style:initial;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+}
+
+.ingredientes{
+    border-radius: 50%;
+}
+
+.ubicanos{
+    background-color:orange 
+}
+
+ul{
+    list-style: none;
+    font-size:0
+    
+}
+
+li{
+    display: inline-block;
+    width: 15%;
+    position:initial;
+    font-size: 14px;
+}
+
+ul ul{
+    position: relative;
+    display:none
+}
+
+ul ul{
+    position: relative;
+    display:none
+}
+
+ul ul li{
+    display: block;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+
+.Encabezado{
+    color:pink;
+    background-color: coral;
+    width: 500 px;
+    height:200px;
+    overflow-wrap:normal;
+    margin: 15px 500px 20px 500px;
+    font-family: 'Pacifico', cursive;
+    font-size:50px;
+    font-stretch:expanded;
+    display: inline-block;
+    position: relative;
+    }
+
+    .imagenMamey{
+        background-image: url(frutita.jpeg);
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        size: 10%
+    }
+
+    #main, nav, footer, article{
+        display: flex;
+    }
+
+    #main{
+        flex-direction: column;
+    }
+
+    nav, 
+    footer,
+    article{
+        flex-direction: row;
+    }
+
+    nav{
+        justify-content: space-between;
+    }
+   footer{
+       justify-content: space-evenly;
+   }
+
+   .producto1{
+    grid-area: producto1;
+   }
+
+   .producto2{
+    grid-area: producto2;
+   }
+
+   .producto3{
+    grid-area: producto3;
+   }
+
